@@ -10,6 +10,8 @@
 
 .main {
   height: 80vh;
+  overflow: scroll;
+  overflow-x: hidden;
 }
 
 .heading-container {
@@ -38,7 +40,6 @@
   .main {
     min-height:1000px;
     max-height: auto;
-    overflow: scroll;
   }
   
   .footer-container {
