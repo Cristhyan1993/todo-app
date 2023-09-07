@@ -1,0 +1,39 @@
+.form-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.form-wrapper {
+    display: flex;
+    max-width: 500px;
+    justify-content: space-around;
+    align-content: center;
+    padding: 15px;
+}
+
+.form-input {
+    font-family: 'Caveat', cursive;
+}
+
+button, input {
+    margin-left: 10px;
+    display: inline-block;
+    outline: none;
+    padding: 0 16px;
+    background-color: #fff;
+    border-radius: 0.25rem;
+    border: 1px solid #dddbda;
+    color: #0070d2;
+    font-size: 13px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: 'Caveat', cursive;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: gold; 
+    text-align: center;
+}

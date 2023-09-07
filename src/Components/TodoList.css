@@ -1,0 +1,28 @@
+.todo-list-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.todo-list-wrapper {
+    border: 1px, solid gold;
+    background-image: url(/public/images/lined-page.png);
+    background-size: contain;
+    background-repeat: repeat-y;
+    /* background-color: maroon; */
+    width: 360px;
+    max-width: 450px;
+    min-height: 500px;
+    /* border: 1px solid gold; */
+    border-radius: 15px;;
+    color:black;
+    opacity: 0.9;
+}
+
+.todo-list-heading {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    color: rgb(117, 107, 50);
+}
